@@ -1,10 +1,19 @@
 package opshack16;
 
+import backend.localization;
+
+import javax.swing.*;
+
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World");
+		
+		localization node = new localization();
+		
+		System.out.println(node.routers.x);
+		System.out.println(node.routers.y);
 	}
 
 }
+
